@@ -30,7 +30,7 @@ def create_data_batches(x, batch_size=32):
     return data_batch
 
 
-loaded_full_model = load_model("./Models/20240530-08041717056280-1000-images.h5")
+loaded_full_model = load_model("./Models/20230512-16541683910468-full-image-set.h5")
 
 
 def get_pred_label(prediction_probabilities):
